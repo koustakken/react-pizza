@@ -1,2 +1,3 @@
 # react-pizza
-React Hooks, Redux Toolkit, React Router, Axios, SCSS, CSS-Modules
+
+React Hooks, React Content Loader, React Router, Axios, SCSS, CSS-Modules
