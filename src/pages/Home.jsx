@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
+import Banner from '../components/Banner';
 import Categories from '../components/Categories';
 import Sort from '../components/Sort';
 import PizzaBlock from '../components/PizzaBlock';
@@ -42,6 +43,7 @@ const Home = ({ searchValue }) => {
 
   return (
     <div className="container">
+      <Banner />
       <div className="content__top">
         <Categories value={categoryId} onClickCategory={(index) => setCategoryId(index)} />
         <Sort value={sortType} onClickSort={(index) => setSortType(index)} />
