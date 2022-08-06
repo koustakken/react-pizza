@@ -6,8 +6,12 @@ import Sort from '../components/Sort';
 import PizzaBlock from '../components/PizzaBlock';
 import Skeleton from '../components/PizzaBlock/Skeleton';
 import axios from 'axios';
+import { useContext } from 'react';
+import { AppContext } from '../App';
 
-const Home = ({ searchValue }) => {
+const Home = () => {
+  const { searchValue } = useContext(AppContext);
+
   //get pizzas on mockApi
   const [pizzas, setPizzas] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
