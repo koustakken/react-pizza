@@ -7,7 +7,8 @@
 ## Tech Stack:
 
 - React Hooks
-- React Context
+- Redux
+- TypeScript
 - React Content Loader
 - React Router
 - Axios
