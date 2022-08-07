@@ -1,3 +1,3 @@
 # react-pizza
 
-React Hooks, React Content Loader, React Router, Axios, SCSS, CSS-Modules
+React Hooks, React Context, React Content Loader, React Router, Axios, SCSS, CSS-Modules
